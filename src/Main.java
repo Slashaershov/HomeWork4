@@ -66,5 +66,20 @@ public class Main
         {
             System.out.println("он может кататься без сопровождения взрослого.");
         }
+
+        //ex6
+        short capacityFull = 102;
+        short capacitySitting = 60;
+        short peopleNumber = 201;
+        if (peopleNumber <= capacitySitting)
+        {
+            System.out.println("в вагоне есть для вас сидячее место");
+        } else if (peopleNumber <= capacityFull)
+        {
+            System.out.println("в вагоне есть для вас только стоячее место");
+        } else
+        {
+            System.out.println("вагон полностью забит");
+        }
     }
 }
