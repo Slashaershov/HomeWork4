@@ -54,7 +54,7 @@ public class Main
 
         //ex 5
         age = 12;
-        System.out.print("Если возраст ребенка равен " + age + ", то ему ");
+        System.out.print("Если возраст ребенка равен " + age + ", то ");
 
         if (age < 5)
         {
@@ -81,5 +81,18 @@ public class Main
         {
             System.out.println("вагон полностью забит");
         }
+
+        //ex 7
+        int one= 10;
+        int two = 20;
+        int three = 30;
+        int max = one;
+        if (max <two){
+            max = two;
+        }
+        if (max < three){
+            max = three;
+        }
+        System.out.println("Наибольшее из чисел: " + max);
     }
 }
