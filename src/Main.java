@@ -47,7 +47,7 @@ public class Main
         } else if (18 <= age && age <= 24)
         {
             System.out.println("в университет");
-        } else if (age > 25)
+        } else if (age > 24)
         {
             System.out.println("на работу");
         }
